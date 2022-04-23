@@ -23,5 +23,12 @@ Next step,cluste each group into three sub-cluster(three sub-Energy-Consumption-
 The detail code can see the **kmeans.ipynb**
 ## Case 2:
 ### time series classification with LSTM model
+In this case,we use the LSTM model last time we report.
 
+First step,we get the data which have be labeled by case 1.
 
+Next,we preprocess the data before training model.
+
+Modified the hyperparameters time series classification by LSTM model.
+
+Show the result and accuracy.
