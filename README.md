@@ -7,6 +7,8 @@ Data:Provided by PJM in Megawatts
 This practice included three file:
 
     README.md
+    
+    result.csv
 
     kmeans.ipynb
 
@@ -32,3 +34,5 @@ Next,we preprocess the data before training model.
 Modified the hyperparameters time series classification by LSTM model.
 
 Show the result and accuracy.
+
+The detail code can see the **LSTM_classification.ipynb**
