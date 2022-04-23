@@ -8,6 +8,8 @@ This practice included three file:
 
     README.md
     
+    all_data.csv
+    
     result.csv
 
     kmeans.ipynb
