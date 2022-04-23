@@ -38,3 +38,30 @@ Modified the hyperparameters time series classification by LSTM model.
 Show the result and accuracy.
 
 The detail code can see the **LSTM_classification.ipynb**
+
+## My Experience
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
