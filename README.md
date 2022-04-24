@@ -15,6 +15,8 @@ This practice included three file:
     kmeans.ipynb
 
     LSTM_classification.ipynb
+    
+    References.txt
 
 We can diveded this practice into two case 
 
