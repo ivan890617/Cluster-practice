@@ -49,28 +49,8 @@ After I solve this problem,I enter the next step,clust each group into 3 sub-clu
 
 For the case two,I used the data which outputed from case one which had been labeled(category).In this case,my propose is to use the LSTM model for time series classification.I studied a lot of information and courses and try to achieve porpose.In the pervious report,I had tried time series prediction by LSTM model.Compare with pradiction and classification.The output of the former is the energy consumption,and the output of the latter is the predicted classification result.So I modified the model which I used in the previous report.
 
-Because this is the problem of classification,I choose the CroosEntropy as my loss.In pytorch,CrossEntropy included Softmax,so I had not to set the Softmax function again as my model output.I just set the linear layer in the output.I thought about this question for a long time.
+Because this is the problem of classification,I choose the CroosEntropy as my loss.In pytorch,CrossEntropy included Softmax,so I had not to set the Softmax function again as my model output.I just set the linear layer in the output.I thought about this question for a long time.I also met another question,that when calculated CrossEntropy,I need put the LSTM　model output and training data label into loss function.I set the label from 1 to 9 at first,but the bug is appear.Because the definition of the CrossEntropy in Pytorch the label should be [0:category-1].That means,in my case,I should adjust my label from 0 to 8.Finally,I solved this question.
 
+After I adjusted the Hyperparameters,my model accuracy could achieve nearly 80%,I think it can be more higher,I will try to improve it.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Thanks for reading my report
