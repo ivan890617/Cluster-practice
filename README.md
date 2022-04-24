@@ -55,4 +55,4 @@ Because this is the problem of classification,I choose the CroosEntropy as my lo
 
 After I adjusted the Hyperparameters,my model accuracy could achieve nearly 80%,I think it can be more higher,I will try to improve it.
 
-Thanks for reading my report
+Thanks for reading my report.
