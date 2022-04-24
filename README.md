@@ -39,8 +39,15 @@ Show the result and accuracy.
 
 The detail code can see the **LSTM_classification.ipynb**
 
-## My Experience
+## My Report Experience
 
+For the case one,I continue working with clustering.This time,I try to clust in 1 dimension, to cluster each group into 3 sub-clusters and so I will have small 9 
+clusters.During the process,I met some problem.I found that KMeans could not clust by the size of cluster_centers.For example,if the size of cluster_centers 
+is 1000,2000,3000,the output category may be 0,2,1,not 0,1,2.So I define a function to solve this problem.Because in my case,size of categorical numbers is important.
+
+After I solve this problem,I enter the next step,clust each group into 3 sub-clusters.First,I divided the data into three part by category which I clust in previous part.Based on each part,I clusted in 3 sub-clusters again.Now,I have small 9 clusters and output the result.
+
+For the case two,I used the data which outputed from case one which had been labeled(category).In this case,my propose is to use the LSTM model for time series classification.I studied a lot of information and courses and try to achieve porpose.In the pervious report,I had tried time series prediction by LSTM model.Compare with pradiction and classification.The output of the former is the energy consumption,and the output of the latter is the predicted classification result.So I modified the model which I used in the previous report.
 
 
 
