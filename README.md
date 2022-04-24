@@ -1,4 +1,4 @@
-# Cluster-practice
+# Cluster-practice Report
 
 Hourly Energy Consumption Data Classification
 
